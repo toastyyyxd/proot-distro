@@ -32,6 +32,7 @@ Here are the supported distributions:
 * Manjaro AArch64
 * OpenSUSE (Tumbleweed)
 * Ubuntu (22.04)
+* Ubuntu (20.04)
 * Void Linux
 
 All systems come in a bare-minumum variant, typically consisting of package
@@ -57,17 +58,12 @@ There is a number of issues that are not resolved.
    This warning may appear during installation of selected distribution.
    Ignore it as it seem to be harmless.
 
-## Installing
-
-With package manager:
-```
-pkg install proot-distro
-```
+## Installing this fork
 
 With git:
 ```
 pkg install git
-git clone https://github.com/termux/proot-distro
+git clone https://github.com/toastyyyxd/proot-distro
 cd proot-distro
 ./install.sh
 ```
